@@ -40,6 +40,7 @@ function setResolutionFields() {
    // Both calendar time and business time are maintained.
 
    /* Hotfix 1.0.0.b - Branch Fix*/
+   /* Comment added in dev208529-branch */
    
    var dataChange = current.opened_at.changes() || current.resolved_at.changes();
    var opened = current.opened_at.getDisplayValue();
@@ -64,7 +65,7 @@ function setResolutionFields() {
         <sys_domain>global</sys_domain>
         <sys_domain_path/>
         <sys_id>d3b21f640a0a3c7400f6acab7de3f5f8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>mark_resolved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Incident Resolution Fields" source="com.snc.incident_resolution_fields">70350d738dc20210d0ad51af41866369</sys_package>
@@ -72,7 +73,7 @@ function setResolutionFields() {
         <sys_scope display_value="Incident Management Customization">2b6ba5f6c334de506a495d02b40131c2</sys_scope>
         <sys_update_name>sys_script_d3b21f640a0a3c7400f6acab7de3f5f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-26 12:02:50</sys_updated_on>
+        <sys_updated_on>2024-09-26 12:42:16</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
